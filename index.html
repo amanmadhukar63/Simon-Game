@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="icon" type="image/x-icon" href="SimonLogo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="level-title">Welcome to The Simon Game</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <button class="start">Start</button>
+  <div>
+    <h2 class="level-title">Rules-</h2>
+    <ol>
+      <li>Press the "Start" button. Simon will give the first signal. Repeat the signal by pressing the same color lens.</li>
+      <li>Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses, in order.</li>
+      <li>Simon will duplicate these first two signals and add one.</li>
+      <li>Continue playing as long as you can repeat each sequence of signals correctly. Simon automatically speeds up.</li>
+      <li>If you fail to repeat a sequence exactly, Simon responds with a "RAZZ" sound. This means you've lost, and the sequence of signals ends.</li>
+    </ol>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="game.js"></script>
+</body>
+
+</html>
